@@ -1,0 +1,17 @@
+div {
+  background-color: red;
+  font-size: 1.4em;
+  margin: 0px auto 100px auto;	
+}
+div#one {
+  width: 600px;
+  height: 80px;
+}
+div#two {
+  max-width: 600px;
+  height: 80px;
+}
+div#three {
+  max-width: 600px;
+  max-height: 80px;
+}

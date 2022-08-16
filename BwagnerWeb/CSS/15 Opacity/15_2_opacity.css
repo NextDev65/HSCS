@@ -1,0 +1,29 @@
+body {
+  background:url(background_cork.jpg);
+}
+h1 {
+  font-size:75px;
+  text-align:center;
+  color:black;
+  background-color:blue;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  height:100px;
+  margin:20px;
+}
+ul {
+  font-size:50px;
+  border:solid black 1px;
+  border-collapse:collapse;
+  padding:50px;
+  background-color:white;
+  color:black;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  margin-left:20%;
+  margin-right:20%;
+}
+h1, li {
+  font-family: comic sans ms;
+}
+

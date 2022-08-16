@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>SpellCheck</label>
+	</settings>
+	<users>
+		<user>
+			<path>SpellCheck.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>SpellCheck.jcp</path>
+		</project>
+	</projects>
+</workspace>

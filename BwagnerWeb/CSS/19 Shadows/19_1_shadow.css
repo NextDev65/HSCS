@@ -1,0 +1,28 @@
+h1 {
+  background-color:white;
+  font-size:50px;
+  text-shadow: 2px 2px 5px;
+  margin-top:-10px;
+  margin-left:-8px;
+  margin-right:-15px;
+}
+body {
+  background-image: radial-gradient(orange, transparent);
+}
+div {
+  border: solid black 1px;
+  width: 40%;
+  height: 50%;
+  margin:-30px 4% 4% 4%;
+  float: left;
+  background-color:white;
+  padding:5px;
+  border-radius:15px;
+  box-shadow: 8px 8px 5px;
+}
+h2 {
+  font-size:30px;
+}
+p {
+  font-size:25px;
+}

@@ -1,0 +1,20 @@
+#div1 {
+  border: 1px solid red;
+  padding:20px 30px 20px 20px;
+  margin:20px 500px 100px 150px;
+}
+#div2 {
+  border: 4px ridge blue;
+  padding:5px 60px 5px 3px;
+  margin:20px 550px 150px 50px;
+}
+#div3 {
+  border: 6px groove gray;
+  padding:40px 30px 40px 40px;
+  margin:20px 300px 150px 50px;
+}
+#div4 {
+  border: 6px outset black;
+  padding-right:20px;
+  margin:20px 400px 150px 150px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>14_1_align</title>
+</head>
+<style>
+#lbox {
+  height:200px;
+  display:inline-block;
+  margin:4%;
+  border: solid blue 2px;
+  width:24.5%;
+  background-color:white;
+  float:left;
+}
+#rbox {
+  height:200px;
+  display:inline-block;
+  margin:4%;
+  border: solid blue 2px;
+  width:24.5%;
+  background-color:white;
+  float:right;
+  clear:right;
+}
+#rect {
+  height: 100px;
+  margin-left:20%;
+  margin-right:20%;
+  border: solid red 2px;
+  width:60%;
+  background-color:white;
+  float:right;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<div>
+  <p id="rect">Rectangle</p>
+</div>
+
+<div style=>
+  <p id="lbox">Left Box</p><p id="rbox">Right Box</p>
+</div>
+
+<div>
+  <p id="rect">Rectangle</p>
+</div>
+
+<div style=>
+  <p id="lbox">Left Box</p><p id="rbox">Right Box</p>
+</div>
+
+<div>
+  <p id="rect">Rectangle</p>
+</div>
+</body>
+</html>

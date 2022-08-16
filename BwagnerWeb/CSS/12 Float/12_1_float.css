@@ -1,0 +1,38 @@
+div {
+  box-sizing: border-box;
+  font-size:3.0em;
+  text-align:center;
+  border:2px solid black;
+}
+#head {
+  background:blue;
+
+}
+#content1 {
+  float: left;
+  height:200px;
+  width:50%;
+}
+#content2 {
+  height:200px;
+  float:right;
+  width:50%;
+  overflow:auto;
+}
+#content3 {
+  float:left;
+  height:200px;
+  width:50%;
+}
+#content4 {
+  height:200px;
+  float:right;
+  width:50%;
+  overflow:auto;
+}
+#footer {
+  background:blue;
+  clear:left;
+  clear:right;
+  height:180px;
+}

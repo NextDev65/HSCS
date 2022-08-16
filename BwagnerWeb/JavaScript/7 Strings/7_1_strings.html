@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>7-1 Strings</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #output {
+                font-size: 5.0em;
+                color: blue;
+            }
+            button {
+                font-size: 1.4em;
+                font-family: consolas, sans-serif;
+                
+            }
+            #wordBox {
+                font-size: 1.4em;
+                width: 200px;
+            }
+            #wordLabel {
+                font-size: 1.6em;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <span id="wordLabel">Word:</span> 
+          <input type="text" id="wordBox" onkeypress="handleKeyPress(event)">
+          <button type="button" onClick="getLength()">StringLength</button>
+          <button type="button" onClick="toUpperCase()">Uppercase</button>
+          <button type="button" onClick="flip()">FlipLetters</button>
+          <button type="button" onClick="split()">Split</button>  
+
+        <br><br>
+      <div id="output"></div>
+    
+    <script>
+        
+        function handleKeyPress(e)
+        {
+            if(e.keyCode === 13)
+            { 
+                getLength();
+            }
+        }
+        
+        function getLength()
+        {
+            var text = document.getElementById("wordBox").value;
+            document.getElementById("output").innerHTML = text.length();
+        }
+        
+        function toUpperCase()
+        {
+            var text = document.getElementById("wordBox").value;
+            document.getElementById("output").innerHTML = text.toUpperCase();
+        } 
+        
+        function flip()
+        {           
+            var text = document.getElementById("wordBox").value;
+            //document.getElementById("output").innerHTML = text.split("").reverse().join("");
+            var flipped="";    
+            for (var i = text.length - 1; i >= 0; i--){        
+                flipped += text[i];
+            }
+            document.getElementById("output").innerHTML = flipped;
+        }
+        function split()
+        {
+            var text = document.getElementById("wordBox").value;
+            middle = Math.floor(text.length/2);
+            document.getElementById("output").innerHTML = text.substring(0, text.length/2) +"<br>"+ text.substring(text.length/2);
+        }
+    </script>
+    </body>
+</html>

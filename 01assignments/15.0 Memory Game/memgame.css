@@ -1,0 +1,94 @@
+﻿/* ▼ buttons ▼ */
+/*button table*/
+#buttons {
+  margin: 20px 0 0 0;
+}
+/*buttons*/
+button {
+  font-size: 2.5em;
+  display:block;
+  margin:auto;
+}
+/*buttons hover*/
+button:hover {
+  background-color: lightcyan;
+}
+/*button active*/
+button:active {
+  background-color: crimson;
+}
+/* ▲ buttons ▲ */
+
+/* ▼ cards ▼ */
+#cards {
+  margin-left:auto; 
+  margin-right:auto;
+}
+table tr td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/* ▲ cards ▲ */
+
+/* ▼ misc ▼ */
+/*removing margin/padding from html/body*/
+html,body { width:100%; height:100%; padding:0px; margin:0px; }
+/*background*/
+#background {
+  background: linear-gradient(to top right, orange, transparent 60%, darkorange),
+              linear-gradient(to top left, orange, transparent 60%, darkorange),
+              linear-gradient(to bottom left, orange, transparent 60%, darkorange),
+              linear-gradient(to bottom right, orange, transparent 60%, darkorange) yellow;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+/*Welcome*/
+h1{
+  color: #C93756;
+  text-align:center;
+  text-shadow: 2px 2px 5px black;
+}
+/*paragraph styling*/
+p {
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  margin: 10px;
+}
+h2 {
+  color: darkgray;
+  font-size: 75px;
+  text-align: center;
+  margin: 10px 10px 5px 10px;
+}
+h3 {
+  background: linear-gradient(to top right, lightcyan, transparent 50%, crimson),
+              linear-gradient(to top left, lightcyan, transparent 50%, crimson),
+              linear-gradient(to bottom left, lightcyan, transparent 50%, crimson),
+              linear-gradient(to bottom right, lightcyan, transparent 50%, crimson);
+  font-size: 50px;
+  text-align: center;
+  margin: 10px 10px 0 10px;
+}
+h4 {
+  background: linear-gradient(to top right, crimson, transparent 50%, lightcyan),
+              linear-gradient(to top left, crimson, transparent 50%, lightcyan),
+              linear-gradient(to bottom left, crimson, transparent 50%, lightcyan),
+              linear-gradient(to bottom right, crimson, transparent 50%, lightcyan);
+  font-size: 50px;
+  text-align: center;
+  margin: 0px 10px 10px 10px;
+}
+/* ▲ misc ▲ */

@@ -1,0 +1,15 @@
+li {
+  display: inline;
+}
+a {
+  font-size: 2em;
+  text-decoration: none;
+  font-family: serif;
+  background-color: purple;
+  color: yellow;
+  padding: 5px;
+}
+a:hover {
+
+  background-color: black;
+}

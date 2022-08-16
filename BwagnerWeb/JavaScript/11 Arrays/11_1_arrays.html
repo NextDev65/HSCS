@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11_1_arrays</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #output {
+                font-size: 5.0em;
+                color: blue;
+            }
+            button {
+                font-size: 1.4em;
+                font-family: consolas, sans-serif;   
+            }
+            .numLabel {
+                font-size: 1.6em;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" onClick="selectBreakfast()">Select Breakfast</button>
+        <br><br>
+        <div id="output"></div>
+    <script>
+        var breakfast = ["cereal", "Pop Tarts", "Toaster Strudel", "egg and bacon muffin", "sausage biscuit", "oatmeal", "cinnamon rolls", "cinnamon toast", "frozen pancakes", "frozen waffles", "bagel", "fruit"];
+        function selectBreakfast()
+        {
+            document.getElementById("output").innerHTML = breakfast[ Math.floor(Math.random() * 12) ];
+        }
+    </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+h1 {
+  font-size:50px;
+  height:75px;
+  background-color:gray;
+}
+p {
+  margin:2%;
+  border: solid black 1px;
+  width:28%;
+  background-color:white;
+  font-weight:bold;
+}
+#content1 {
+  float:left;
+}
+#content2 {
+  float:left;
+}
+#content3 {
+  float:left;
+}
+#foot {
+float:right;
+width:100%;
+}

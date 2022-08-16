@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>memgame</title>
+    <link rel="stylesheet" type="text/css" href="memgame.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body onload="mario()">
+    <script src="memgame.js"></script>
+	<div id="background"></div>
+    <h1>Board Games</h1>
+    <h2>BASIC MEMORY GAME</h2>
+	<!-- ▼ buttons ▼ -->
+    <div id="buttons">
+        <button id="reset" onclick="mario()">New Game</button>
+    </div>
+    <!-- ▲ buttons ▲ -->
+
+    <!-- ▼ cards ▼ -->
+    <div>
+		<h3 id ="match">Scoreboard</h3>
+		<h4 id="score">0</h4>
+        <table id = "cards">
+            <tr>
+                <td><img id="c1" onclick="flip(1)" src="cards/mario.jpg" alt="mario"><img id="1c" onclick="flip()" src="cards/super.png" alt="super"></td>
+                <td><img id="c2" onclick="flip(2)" src="cards/mario.jpg" alt="mario"><img id="2c" onclick="flip()" src="cards/1up.png" alt="1up"></td>
+                <td><img id="c3" onclick="flip(3)" src="cards/mario.jpg" alt="mario"><img id="3c" onclick="flip()" src="cards/mini.png" alt="mini"></td>
+                <td><img id="c4" onclick="flip(4)" src="cards/mario.jpg" alt="mario"><img id="4c" onclick="flip()" src="cards/mega.png" alt="mega"></td>
+                <td><img id="c5" onclick="flip(5)" src="cards/mario.jpg" alt="mario"><img id="5c" onclick="flip()" src="cards/bee.png" alt="bee"></td>
+            </tr>
+            <tr>
+                <td><img id="c6" onclick="flip(6)" src="cards/mario.jpg" alt="mario"><img id="6c" onclick="flip()" src="cards/mega.png" alt="mega"></td>
+                <td><img id="c7" onclick="flip(7)" src="cards/mario.jpg" alt="mario"><img id="7c" onclick="flip()" src="cards/mini.png" alt="mini"></td>
+                <td><img id="c8" onclick="flip(8)" src="cards/mario.jpg" alt="mario"><img id="8c" onclick="flip()" src="cards/super.png" alt="super"></td>
+                <td><img id="c9" onclick="flip(9)" src="cards/mario.jpg" alt="mario"><img id="9c" onclick="flip()" src="cards/1up.png" alt="1up"></td>
+                <td><img id="c0" onclick="flip(0)" src="cards/mario.jpg" alt="mario"><img id="0c" onclick="flip()" src="cards/bee.png" alt="bee"></td>
+            </tr>
+        </table>
+    </div>
+    <!-- ▲ cards ▲ -->
+</body>
+</html>

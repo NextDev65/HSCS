@@ -1,0 +1,49 @@
+.flex-container{
+  margin-top: 27%;
+  margin-left: 35%;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: rows;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+  height: 400px;
+  width: 275px;
+  padding: 20px;
+  border-radius: 25px;
+}
+#button{
+  width: 50px;
+  box-sizing: border-box;
+  background-color: darkgray;
+  color: black;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 7px;
+  text-align:center;
+  font-size: 35px;
+  font-family: helvetica;
+}
+div{
+  margin: 3px;
+}
+#output{
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid grey;
+  min-width: 220px;
+  height: 25px;
+  padding: 15px;
+}
+#large{
+  width: 105px;
+  box-sizing: border-box;
+  background-color: darkgray;
+  color: black;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 7px;
+  text-align:center;
+  font-size: 35px;
+}
+  
+  

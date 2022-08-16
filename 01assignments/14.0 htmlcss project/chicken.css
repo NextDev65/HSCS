@@ -1,0 +1,172 @@
+﻿/* ▼ base ▼ */
+/*navbar menu*/
+ul.menu {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: darkorange;
+  box-shadow: 0px 0px 15px #ee6c00;
+}
+/*menu li's*/
+li.menu {
+  float: left;
+}
+/*menu buttons*/
+li.menu a, .drop {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*menu buttons hover red*/
+li.menu a:hover, .drop:hover{
+  background-color: #ffc354;
+}
+/*dropmenu inline hidden*/
+li.dropdown {
+  display: inline-block;
+}
+/*dropmenu display*/
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/*dropmenu links*/
+.dropcontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*dropmenu links hover gray*/
+.dropcontent a:hover {
+  background-color: #f1f1f1;
+}
+/*hover display dropcontent*/
+.dropdown:hover .dropcontent {
+  display: block;
+}
+/*background*/
+#background {
+  /*background-image: url("chicken.jpg");*/
+  background: linear-gradient(to top right, orange, transparent 60%, darkorange),
+              linear-gradient(to top left, orange, transparent 60%, darkorange),
+              linear-gradient(to bottom left, orange, transparent 60%, darkorange),
+              linear-gradient(to bottom right, orange, transparent 60%, darkorange) yellow;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+/*Welcome*/
+h1{
+  color: #C93756;
+  text-align:center;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* ▲ base ▲ */
+
+/* ▼ gallery ▼ */
+div.gallery {
+  background-color:lightyellow;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24.7%;
+  height: auto;
+}
+div.gallery img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* ▲ gallery ▲ */
+
+/*iframe*/
+iframe.chicken {
+  width: 100%;
+  height: 100%;
+}
+
+/* ▼ table ▼ */
+/*table*/
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+  padding: 0;
+  border-collapse: collapse;
+  width: 50%;
+  font-weight: 900;
+  font-family: "Gill Sans", sans-serif;
+}
+/*predeath*/
+img {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+/* ▲ table ▲ */
+
+/* ▼ header+footer ▼ */
+header {
+  font-size: 150px;
+  font-family: helvetica;
+  color: red;
+  text-align: center;
+}
+footer {
+  font-size: 20px;
+  font-family: helvetica;
+  color: red;
+  text-align: center;
+  float: bottom;
+}
+/* ▲ header+footer ▲ */
+
+/* ▼ misc ▼ */
+/*removing margin/padding from html/body*/
+html,body { width:100%; height:100%; padding:0px; margin:0px; }
+
+p {
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  margin: 10px;
+}
+
+/*no text decor*/
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ▲ misc ▲ */
